@@ -8,22 +8,22 @@
     <PreferenceCategory
         android:title="链接">
         <Preference
-            android:title="三翼校园">
+            android:title="关于我们">
             <intent android:action="android.intent.action.VIEW"
-                android:data="http://www.sky31.com"/>
+                android:data="https://www.linht.net.cn"/>
         </Preference>
         <Preference
-            android:title="画眉小栈">
+            android:title="CP-ONE招聘网">
             <intent android:action="android.intent.action.VIEW"
-                android:data="http://xtuers.com"/>
+                android:data="https://www.linht.xyz"/>
         </Preference>
     </PreferenceCategory>
     <PreferenceCategory android:title="感谢">
-        <Preference android:title="\@成会要洗心革面做笨蛋"
-            android:summary="图标设计">
+        <Preference android:title="\三翼校园"
+            android:summary="原型设计">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="http://weibo.cn/u/2885293754"/>
+                android:data="https://www.sky31.com/"/>
         </Preference>
     </PreferenceCategory>
     <PreferenceCategory android:title="贡献">
@@ -40,15 +40,15 @@
             android:title="源码@Github">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/linroid/Sky31Radio"/>
+                android:data="https://github.com/Linht39/DylanRadio"/>
         </Preference>
     </PreferenceCategory>
     <PreferenceCategory android:title="关于">
         <Preference
             android:title="开发者"
-            android:summary="张林">
+            android:summary="Dylan">
             <intent android:action="android.intent.action.VIEW"
-                android:data="http://linroid.com"/>
+                android:data="https://www.linht.net.cn"/>
             </Preference>
         <Preference  android:key="@string/pref_check_version" android:title="检查新版本"/>
         <Preference  android:key="@string/pref_build_time" android:title="构建时间"/>
